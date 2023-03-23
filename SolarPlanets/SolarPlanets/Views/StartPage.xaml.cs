@@ -1,4 +1,4 @@
-namespace Views;
+namespace SolarPlanets.Views;
 
 public partial class StartPage : ContentPage
 {
