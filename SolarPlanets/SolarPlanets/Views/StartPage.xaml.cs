@@ -25,5 +25,11 @@ public partial class StartPage : ContentPage
         parentAnimation.Add(0.7, 0.9, new Animation(v => imgUranus.Opacity = v, 0, 1, Easing.CubicIn));
 
         parentAnimation.Commit(this, "TransitionAnimation", 16, 3000, null, null);
+
+        //Intro Box
+        parentAnimation.Add(0.7, 1, new Animation(v => frmIntro.Opacity = v, 0, 1, Easing.CubicIn));
+
     }
+    async void ExploreNow_Clicked(System.Object sender, System.EventArgs e)
+        => Application.Current.MainPage = new NavigationPage(new PlanetsPage());
 }
