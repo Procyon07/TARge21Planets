@@ -102,9 +102,9 @@
                     <RoundRectangle CornerRadius="28"/>
                 </Border.StrokeShape>
 
-                <!--<Border.GestureRecognizers>
+                <Border.GestureRecognizers>
                     <TapGestureRecognizer Tapped="ProfilePic_Clicked" />
-                </Border.GestureRecognizers>-->
+                </Border.GestureRecognizers>
 
                 <Image
                     VerticalOptions="Center"
@@ -183,9 +183,8 @@
                         x:Name="lstPopularPlanets"
                         HeightRequest="280"
                         SelectionMode="Single"
-                        
+                        SelectionChanged="Planets_SelectionChanged"                        
                         >
-<!--SelectionChanged="Planets_SelectionChanged"-->
                         <CollectionView.ItemsLayout>
                             <LinearItemsLayout
                                 Orientation="Horizontal"
@@ -253,9 +252,8 @@
                         x:Name="lstAllPlanets"
                         HeightRequest="160"
                         SelectionMode="Single"
-                        
+                        SelectionChanged="Planets_SelectionChanged"                        
                         >
-                        <!--SelectionChanged="Planets_SelectionChanged"-->
                         <CollectionView.ItemsLayout>
                             <LinearItemsLayout
                                 Orientation="Horizontal"

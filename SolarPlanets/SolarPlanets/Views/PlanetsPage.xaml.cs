@@ -20,6 +20,11 @@ public partial class PlanetsPage : ContentPage
     {
         await CloseMenu();
     }
+    async void Planets_SelectionChanged(System.Object sender, Microsoft.Maui.Controls.SelectionChangedEventArgs e)
+    {
+        await Navigation.PushAsync(new PlanetDetailsPage(e.CurrentSelection.First() as Planet));
+    }
+
     async void ProfilePic_Clicked(System.Object sender, System.EventArgs e)
     {
         // Reveal our menu and move the main content out of the view
