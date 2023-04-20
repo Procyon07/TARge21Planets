@@ -136,17 +136,32 @@ namespace SolarPlanets.Services
         {
             Name = "Pluto",
             Subtitle = "The abandoned one",
-            HeroImage = "neptune.png",
+            HeroImage = "pluto.png",
             Description = "Pluto is a dwarf planet in the Kuiper Belt, a donut-shaped region of icy bodies beyond the orbit of Neptune. There may be millions of these icy objects, collectively referred to as Kuiper Belt objects (KBOs) or trans-Neptunian objects (TNOs), in this distant region of our solar system.",
             AccentColorStart = Color.FromArgb("#0c293d"),
             AccentColorEnd = Color.FromArgb("#26abe0"),
             Images = new()
             {
                 "https://solarsystem.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc3dGIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1bb4e43c4ffeb97994ee48daf607bce47f0feb77/BIG_P_COLOR_2_TRUE_COLOR1_1980.jpg?disposition=attachment",
-                "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
-                "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                "https://solarsystem.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc0lEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bee6b7a89c66eda9b0cbc2845bf0045cd964590c/PIA20038.jpg?disposition=attachment",
+                "https://solarsystem.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcWdEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--76b09be0e83342cc73b4701d5bf43d22e00c0c35/PIA21590.jpg?disposition=attachment"
             }
-        }
+        },
+        new()
+        {
+            Name = "Pluto",
+            Subtitle = "The abandoned one",
+            HeroImage = "pluto.png",
+            Description = "Pluto is a dwarf planet in the Kuiper Belt, a donut-shaped region of icy bodies beyond the orbit of Neptune. There may be millions of these icy objects, collectively referred to as Kuiper Belt objects (KBOs) or trans-Neptunian objects (TNOs), in this distant region of our solar system.",
+            AccentColorStart = Color.FromArgb("#0c293d"),
+            AccentColorEnd = Color.FromArgb("#26abe0"),
+            Images = new()
+            {
+                "https://solarsystem.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc3dGIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1bb4e43c4ffeb97994ee48daf607bce47f0feb77/BIG_P_COLOR_2_TRUE_COLOR1_1980.jpg?disposition=attachment",
+                "https://solarsystem.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc0lEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bee6b7a89c66eda9b0cbc2845bf0045cd964590c/PIA20038.jpg?disposition=attachment",
+                "https://solarsystem.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcWdEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--76b09be0e83342cc73b4701d5bf43d22e00c0c35/PIA21590.jpg?disposition=attachment"
+            }
+        }            
         };
         public static List<Planet> GetFeaturedPlanets()
         {
