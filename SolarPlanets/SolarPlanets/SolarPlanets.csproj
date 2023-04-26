@@ -49,6 +49,10 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\ApiPic.jpeg" />
+	  <None Remove="Resources\Images\Ceres.png" />
+	  <None Remove="Resources\Images\Eris.png" />
+	  <None Remove="Resources\Images\Haumea.png" />
+	  <None Remove="Resources\Images\MakeMake.png" />
 	</ItemGroup>
 
 	<ItemGroup>
