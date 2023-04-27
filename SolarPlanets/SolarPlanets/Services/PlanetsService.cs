@@ -143,68 +143,68 @@ namespace SolarPlanets.Services
             Images = new()
             {
                 "https://solarsystem.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc3dGIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1bb4e43c4ffeb97994ee48daf607bce47f0feb77/BIG_P_COLOR_2_TRUE_COLOR1_1980.jpg?disposition=attachment",
-                "https://solarsystem.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc0lEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bee6b7a89c66eda9b0cbc2845bf0045cd964590c/PIA20038.jpg?disposition=attachment",
-                "https://solarsystem.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcWdEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--76b09be0e83342cc73b4701d5bf43d22e00c0c35/PIA21590.jpg?disposition=attachment"
+                "https://th-thumbnailer.cdn-si-edu.com/e9S3bjaH_tRFFZZe7k0oJjGdnLk=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/36/2a/362a1c54-7109-4c09-92a4-5abbb1b6eb4e/screen_shot_2021-06-24_at_113647_am.png",
+                "https://static.wikia.nocookie.net/terragenesis/images/3/35/Pluto.png/revision/latest?cb=20230220133034"
             }
         },
         new()
         {
             Name = "Ceres",
             Subtitle = "Magnetodeficient",
-            HeroImage = "Ceres.png",
+            HeroImage = "ceres.png",
             Description = "Dwarf planet Ceres is the largest object in the asteroid belt between Mars and Jupiter, and it\'s the only dwarf planet located in the inner solar system. It was the first member of the asteroid belt to be discovered when Giuseppe Piazzi spotted it in 1801. And when NASA\'s Dawn arrived in 2015, Ceres became the first dwarf planet to receive a visit from a spacecraft.",
             AccentColorStart = Color.FromArgb("#0c293d"),
             AccentColorEnd = Color.FromArgb("#26abe0"),
             Images = new()
             {
-                "https://www.google.com/imgres?imgurl=https%3A%2F%2Fsolarsystem.nasa.gov%2Fsystem%2Fstellar_items%2Fimage_files%2F704_feature_1600x900_ceres.jpg&tbnid=qbMKS0AbRmukiM&vet=12ahUKEwiBoPiF_Mf-AhWKsSoKHaH4AzwQMygBegUIARDnAQ..i&imgrefurl=https%3A%2F%2Fsolarsystem.nasa.gov%2Fplanets%2Fdwarf-planets%2Fceres%2Foverview%2F&docid=lfrj99n0uwsV8M&w=1600&h=900&q=ceres&ved=2ahUKEwiBoPiF_Mf-AhWKsSoKHaH4AzwQMygBegUIARDnAQ",
-                "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F7%2F76%2FCeres_-_RC3_-_Haulani_Crater_%252822381131691%2529_%2528cropped%2529.jpg&tbnid=mBsu1wRWhQw2lM&vet=12ahUKEwiBoPiF_Mf-AhWKsSoKHaH4AzwQMygAegUIARDlAQ..i&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCeres_(dwarf_planet)&docid=59PvnYnvzANMoM&w=852&h=836&q=ceres&ved=2ahUKEwiBoPiF_Mf-AhWKsSoKHaH4AzwQMygAegUIARDlAQ",
-                "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsolarsystem.nasa.gov%2Fplanets%2Fdwarf-planets%2Fceres%2Foverview%2F&psig=AOvVaw2SBPVVNxKiouLeJSgCP3tD&ust=1682613035790000&source=images&cd=vfe&ved=2ahUKEwi0m86T_Mf-AhXQwSoKHT8lChMQjRx6BAgAEAw"
+                "https://solarsystem.nasa.gov/system/stellar_items/image_files/704_feature_1600x900_ceres.jpg",
+                "https://upload.wikimedia.org/wikipedia/commons/7/76/Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg",
+                "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_auto,q_auto:best/MSNBC/Components/Photo/_new/090305_ceres_layer_02.jpg"
             }
         },
         new()
         {
             Name = "Haumea",
             Subtitle = "The Hawaiian goddess of fertility.",
-            HeroImage = "Haumea.png",
+            HeroImage = "haumea.png",
             Description = "Originally designated 2003 EL61 (and nicknamed Santa by one discovery team), Haumea is located in the Kuiper Belt, a donut-shaped region of icy bodies beyond the orbit of Neptune.",
             AccentColorStart = Color.FromArgb("#0c293d"),
             AccentColorEnd = Color.FromArgb("#26abe0"),
             Images = new()
             {
-                "https://www.google.com/imgres?imgurl=https%3A%2F%2Fsolarsystem.nasa.gov%2Fsystem%2Fstellar_items%2Fimage_files%2F723_feature_1600x900_haumea.jpg&tbnid=5U728bOLTMXt8M&vet=12ahUKEwjh--vI_Mf-AhXGyyoKHRfdD7kQMygBegUIARDtAQ..i&imgrefurl=https%3A%2F%2Fsolarsystem.nasa.gov%2Fplanets%2Fdwarf-planets%2Fhaumea%2Fin-depth%2F&docid=NQxU-LFjiRRYgM&w=1600&h=900&q=haumea&ved=2ahUKEwjh--vI_Mf-AhXGyyoKHRfdD7kQMygBegUIARDtAQ",
-                "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.sci.news%2Fimages%2Fenlarge10%2Fimage_11303e-Haumea.jpg&tbnid=y_I2eiuS9WcifM&vet=12ahUKEwjh--vI_Mf-AhXGyyoKHRfdD7kQMygCegUIARDvAQ..i&imgrefurl=https%3A%2F%2Fwww.sci.news%2Fastronomy%2Fdwarf-planet-haumea-formation-evolution-11303.html&docid=6Z1StCpUaKn41M&w=1500&h=1500&q=haumea&ved=2ahUKEwjh--vI_Mf-AhXGyyoKHRfdD7kQMygCegUIARDvAQ",
-                "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fexpanse%2Fimages%2F1%2F1f%2FHaumea_in_Celestia.jpg%2Frevision%2Flatest%3Fcb%3D20200206143331&tbnid=pXZrI2QC04t43M&vet=12ahUKEwjh--vI_Mf-AhXGyyoKHRfdD7kQMygPegUIARCLAg..i&imgrefurl=https%3A%2F%2Fexpanse.fandom.com%2Fwiki%2FHaumea&docid=M3roBp3DqBXvqM&w=850&h=686&q=haumea&ved=2ahUKEwjh--vI_Mf-AhXGyyoKHRfdD7kQMygPegUIARCLAg"
+                "https://solarsystem.nasa.gov/system/stellar_items/image_files/723_feature_1600x900_haumea.jpg",
+                "https://cdn.sci.news/images/enlarge10/image_11303e-Haumea.jpg",
+                "https://static.wikia.nocookie.net/expanse/images/1/1f/Haumea_in_Celestia.jpg"
             }
         },
         new()
         {
             Name = "MakeMake",
             Subtitle = "The Rapanui god of fertility",
-            HeroImage = "MakeMake.png",
+            HeroImage = "makemake.png",
             Description = "Makemake holds an important place in the history of solar system studies because it – along with Eris – was one of the objects whose discovery prompted the International Astronomical Union to reconsider the definition of a planet and to create the new group of dwarf planets.",
             AccentColorStart = Color.FromArgb("#0c293d"),
             AccentColorEnd = Color.FromArgb("#26abe0"),
             Images = new()
             {
                 "https://solarsystem.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcWdEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--76b09be0e83342cc73b4701d5bf43d22e00c0c35/PIA21590.jpg?disposition=attachment",
-                "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.universetoday.com%2Fwp-content%2Fuploads%2F2008%2F07%2FMakemake-1280x720.jpg&tbnid=NBqRS4JX-jLcNM&vet=12ahUKEwid1Z-s_cf-AhVStSoKHUjkDP4QMygHegUIARD7AQ..i&imgrefurl=https%3A%2F%2Fwww.universetoday.com%2F15535%2Fnewest-dwarf-planet-and-plutoid-makemake%2F&docid=Ehx8YhPP1YupOM&w=1280&h=720&q=makemake&ved=2ahUKEwid1Z-s_cf-AhVStSoKHUjkDP4QMygHegUIARD7AQ",
-                "https://www.google.com/imgres?imgurl=https%3A%2F%2Fsolarsystem.nasa.gov%2Fsystem%2Fstellar_items%2Fimage_files%2F705_feature_1600x900_makemake.jpg&tbnid=xBrVqgcLsiWlnM&vet=12ahUKEwid1Z-s_cf-AhVStSoKHUjkDP4QMygMegUIARCFAg..i&imgrefurl=https%3A%2F%2Fsolarsystem.nasa.gov%2Fplanets%2Fdwarf-planets%2Fmakemake%2Fin-depth%2F&docid=wWlpDN-xZAsS3M&w=1600&h=900&q=makemake&ved=2ahUKEwid1Z-s_cf-AhVStSoKHUjkDP4QMygMegUIARCFAg"
+                "https://www.universetoday.com/wp-content/uploads/2008/07/Makemake-1280x720.jpg",
+                "https://solarsystem.nasa.gov/system/stellar_items/image_files/705_feature_1600x900_makemake.jpg"
             }
         },
         new()
         {
             Name = "Eris",
             Subtitle = "Greek Goddess of discord and strife",
-            HeroImage = "Eris.png",
+            HeroImage = "eris.png",
             Description = "Eris is one of the largest known dwarf planets in our solar system. It's about the same size as Pluto but is three times farther from the Sun.",
             AccentColorStart = Color.FromArgb("#0c293d"),
             AccentColorEnd = Color.FromArgb("#26abe0"),
             Images = new()
             {
-                "https://solarsystem.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcWdEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--76b09be0e83342cc73b4701d5bf43d22e00c0c35/PIA21590.jpg?disposition=attachment",
-                "https://www.google.com/imgres?imgurl=https%3A%2F%2Fsolarsystem.nasa.gov%2Frails%2Factive_storage%2Fblobs%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaUFSIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1f24a5d7e143ef1d68416edb76a51ec065c1019c%2Feris_th.jpg%3Fdisposition%3Dattachment&tbnid=siqtE89Zsk1jLM&vet=12ahUKEwj0iaqT_sf-AhXYsCoKHU-ZBIEQMygCegUIARDmAQ..i&imgrefurl=https%3A%2F%2Fsolarsystem.nasa.gov%2Fplanets%2Fdwarf-planets%2Feris%2Fin-depth%2F&docid=MBr2Ue7qS7BiEM&w=320&h=240&q=eris&ved=2ahUKEwj0iaqT_sf-AhXYsCoKHU-ZBIEQMygCegUIARDmAQ",
-                "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.scienceabc.com%2Fwp-content%2Fuploads%2F2020%2F01%2FEris-dwarf-planet-in-the-outer-spaceLarichs.jpg&tbnid=WxwrB9Lcv8gcDM&vet=12ahUKEwj0iaqT_sf-AhXYsCoKHU-ZBIEQMygGegUIARDuAQ..i&imgrefurl=https%3A%2F%2Fwww.scienceabc.com%2Fnature%2Funiverse%2Fwhat-is-eris.html&docid=bMBTcVhAvB3a7M&w=1000&h=563&q=eris&ved=2ahUKEwj0iaqT_sf-AhXYsCoKHU-ZBIEQMygGegUIARDuAQ"
+                "https://cdn.eso.org/images/newsfeature/eso1142a.jpg",
+                "https://solarsystem.nasa.gov/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9JYTJWNVNTSXBaamMzT1RNeU16Z3RNRFUxTkMwME1tUmtMV0ppTTJNdE5UUTBORFJrWlRObE1EQXpCam9HUlZRNkVHUnBjM0J2YzJsMGFXOXVTU0pCYVc1c2FXNWxPeUJtYVd4bGJtRnRaVDBpWlhKcGMxOTBhQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkoyVnlhWE5mZEdndWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUT0iLCJleHAiOiIyMDIzLTA0LTI3VDEwOjAyOjU5LjA2OFoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--0f566a6b0ee1381ed35ccaab648679c8e8f6113d/eris_th.jpg?content_type=image%2Fjpeg&disposition=inline%3B+filename%3D%22eris_th.jpg%22%3B+filename%2A%3DUTF-8%27%27eris_th.jpg",
+                "https://www.scienceabc.com/wp-content/uploads/2020/01/Eris-dwarf-planet-in-the-outer-spaceLarichs.jpg"
             }
         }
         };
